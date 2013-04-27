@@ -1,7 +1,7 @@
 {
   "name": "grunt-stitch-extra",
   "description": "Stitch files as CommonJS",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "homepage": "https://github.com/fahad19/grunt-stitch-extra",
   "author": {
     "name": "Fahad Ibnay Heylaal",
@@ -41,6 +41,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "stitch-extra": "~0.4.0"
+    "stitch-extra": "~0.4.1"
   }
 }
