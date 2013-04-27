@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         paths: f.paths || [],
         identifier: f.identifier || null,
         listModules: f.listModules || false,
-        listModulesIdentifier: f.listModulesIdentifier || null
+        listModulesId: f.listModulesId || null
       };
     };
 
