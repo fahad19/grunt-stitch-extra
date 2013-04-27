@@ -31,6 +31,9 @@ module.exports = function(grunt) {
     var compile = function(options, dest, callback) {
       var stitchPackage = stitch.createPackage(options);
       stitchPackage.compile(function(err, src) {
+        if (err) {
+          throw err;
+        }
         grunt.file.write(dest, src);
         grunt.log.writeln('File "' + dest + '" created.');
         callback();
